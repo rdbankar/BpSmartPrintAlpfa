@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09C726C2AAEEEC100F76903 /* BpQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C726B2AAEEEC100F76903 /* BpQRCode.swift */; };
+		F09C726E2AAEEF6C00F76903 /* BpQRCodeImageGenrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C726D2AAEEF6C00F76903 /* BpQRCodeImageGenrator.swift */; };
+		F09C72712AB03D5600F76903 /* PrinterListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C72702AB03D5600F76903 /* PrinterListViewViewController.swift */; };
+		F09F98BE2AAAE198003557DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98BD2AAAE198003557DF /* AppDelegate.swift */; };
+		F09F98C02AAAE198003557DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98BF2AAAE198003557DF /* SceneDelegate.swift */; };
+		F09F98C22AAAE198003557DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98C12AAAE198003557DF /* ViewController.swift */; };
+		F09F98C52AAAE198003557DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09F98C32AAAE198003557DF /* Main.storyboard */; };
+		F09F98C72AAAE199003557DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09F98C62AAAE199003557DF /* Assets.xcassets */; };
+		F09F98CA2AAAE199003557DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09F98C82AAAE199003557DF /* LaunchScreen.storyboard */; };
+		F09F98D22AAAF4D2003557DF /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98D12AAAF4D2003557DF /* Command.swift */; };
+		F09F98D42AAAF606003557DF /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98D32AAAF605003557DF /* Image.swift */; };
+		F09F98D62AAAF68B003557DF /* QRcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98D52AAAF68B003557DF /* QRcode.swift */; };
+		F09F98D82AAAF70C003557DF /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98D72AAAF70C003557DF /* Receipt.swift */; };
+		F09F98DA2AAAF8F9003557DF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09F98D92AAAF8F9003557DF /* Text.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F09C726B2AAEEEC100F76903 /* BpQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpQRCode.swift; sourceTree = "<group>"; };
+		F09C726D2AAEEF6C00F76903 /* BpQRCodeImageGenrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpQRCodeImageGenrator.swift; sourceTree = "<group>"; };
+		F09C72702AB03D5600F76903 /* PrinterListViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterListViewViewController.swift; sourceTree = "<group>"; };
+		F09F98BA2AAAE198003557DF /* BpSmartPrintAlpfa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BpSmartPrintAlpfa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09F98BD2AAAE198003557DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F09F98BF2AAAE198003557DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F09F98C12AAAE198003557DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F09F98C42AAAE198003557DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09F98C62AAAE199003557DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09F98C92AAAE199003557DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09F98CB2AAAE199003557DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09F98D12AAAF4D2003557DF /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		F09F98D32AAAF605003557DF /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F09F98D52AAAF68B003557DF /* QRcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcode.swift; sourceTree = "<group>"; };
+		F09F98D72AAAF70C003557DF /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		F09F98D92AAAF8F9003557DF /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09F98B72AAAE198003557DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09F98B12AAAE198003557DF = {
+			isa = PBXGroup;
+			children = (
+				F09F98BC2AAAE198003557DF /* BpSmartPrintAlpfa */,
+				F09F98BB2AAAE198003557DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09F98BB2AAAE198003557DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09F98BA2AAAE198003557DF /* BpSmartPrintAlpfa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09F98BC2AAAE198003557DF /* BpSmartPrintAlpfa */ = {
+			isa = PBXGroup;
+			children = (
+				F09F98BD2AAAE198003557DF /* AppDelegate.swift */,
+				F09F98BF2AAAE198003557DF /* SceneDelegate.swift */,
+				F09F98C12AAAE198003557DF /* ViewController.swift */,
+				F09F98D12AAAF4D2003557DF /* Command.swift */,
+				F09F98D32AAAF605003557DF /* Image.swift */,
+				F09F98D92AAAF8F9003557DF /* Text.swift */,
+				F09F98D52AAAF68B003557DF /* QRcode.swift */,
+				F09F98D72AAAF70C003557DF /* Receipt.swift */,
+				F09F98C32AAAE198003557DF /* Main.storyboard */,
+				F09C72702AB03D5600F76903 /* PrinterListViewViewController.swift */,
+				F09F98C62AAAE199003557DF /* Assets.xcassets */,
+				F09F98C82AAAE199003557DF /* LaunchScreen.storyboard */,
+				F09F98CB2AAAE199003557DF /* Info.plist */,
+				F09C726B2AAEEEC100F76903 /* BpQRCode.swift */,
+				F09C726D2AAEEF6C00F76903 /* BpQRCodeImageGenrator.swift */,
+			);
+			path = BpSmartPrintAlpfa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09F98B92AAAE198003557DF /* BpSmartPrintAlpfa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09F98CE2AAAE199003557DF /* Build configuration list for PBXNativeTarget "BpSmartPrintAlpfa" */;
+			buildPhases = (
+				F09F98B62AAAE198003557DF /* Sources */,
+				F09F98B72AAAE198003557DF /* Frameworks */,
+				F09F98B82AAAE198003557DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BpSmartPrintAlpfa;
+			productName = BpSmartPrintAlpfa;
+			productReference = F09F98BA2AAAE198003557DF /* BpSmartPrintAlpfa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09F98B22AAAE198003557DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F09F98B92AAAE198003557DF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F09F98B52AAAE198003557DF /* Build configuration list for PBXProject "BpSmartPrintAlpfa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09F98B12AAAE198003557DF;
+			productRefGroup = F09F98BB2AAAE198003557DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09F98B92AAAE198003557DF /* BpSmartPrintAlpfa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09F98B82AAAE198003557DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09F98CA2AAAE199003557DF /* LaunchScreen.storyboard in Resources */,
+				F09F98C72AAAE199003557DF /* Assets.xcassets in Resources */,
+				F09F98C52AAAE198003557DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09F98B62AAAE198003557DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09F98C22AAAE198003557DF /* ViewController.swift in Sources */,
+				F09C72712AB03D5600F76903 /* PrinterListViewViewController.swift in Sources */,
+				F09F98D62AAAF68B003557DF /* QRcode.swift in Sources */,
+				F09F98DA2AAAF8F9003557DF /* Text.swift in Sources */,
+				F09F98D82AAAF70C003557DF /* Receipt.swift in Sources */,
+				F09F98BE2AAAE198003557DF /* AppDelegate.swift in Sources */,
+				F09F98C02AAAE198003557DF /* SceneDelegate.swift in Sources */,
+				F09F98D22AAAF4D2003557DF /* Command.swift in Sources */,
+				F09F98D42AAAF606003557DF /* Image.swift in Sources */,
+				F09C726C2AAEEEC100F76903 /* BpQRCode.swift in Sources */,
+				F09C726E2AAEEF6C00F76903 /* BpQRCodeImageGenrator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F09F98C32AAAE198003557DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09F98C42AAAE198003557DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09F98C82AAAE199003557DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09F98C92AAAE199003557DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09F98CC2AAAE199003557DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F09F98CD2AAAE199003557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09F98CF2AAAE199003557DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49TSTZVVS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BpSmartPrintAlpfa/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We neet BT Access";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "We neet BT Access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bluprints.BpSmartPrintAlpfa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09F98D02AAAE199003557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49TSTZVVS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BpSmartPrintAlpfa/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We neet BT Access";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "We neet BT Access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bluprints.BpSmartPrintAlpfa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09F98B52AAAE198003557DF /* Build configuration list for PBXProject "BpSmartPrintAlpfa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09F98CC2AAAE199003557DF /* Debug */,
+				F09F98CD2AAAE199003557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09F98CE2AAAE199003557DF /* Build configuration list for PBXNativeTarget "BpSmartPrintAlpfa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09F98CF2AAAE199003557DF /* Debug */,
+				F09F98D02AAAE199003557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09F98B22AAAE198003557DF /* Project object */;
+}
